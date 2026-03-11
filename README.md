@@ -16,40 +16,6 @@ A web-based placement portal application for managing campus recruitment activit
 - Students can apply for placement drives and track application status
 - Complete application history and statistics
 
-## Installation
-1. Create a virtual environment:
-   ```
-   python -m venv venv
-   ```
-
-2. Activate the virtual environment:
-   - Windows: `venv\Scripts\activate`
-   - Mac/Linux: `source venv/bin/activate`
-
-3. Install dependencies:
-   ```
-   pip install -r requirements.txt
-   ```
-
-4. Initialize the database:
-   ```
-   python app.py
-   ```
-   The admin user will be created automatically.
-
-5. Run the application:
-   ```
-   python app.py
-   ```
-
-6. Access the application at:
-   ```
-   http://127.0.0.1:5000/
-   ```
-
-## Default Admin Credentials
-- Username: admin
-- Password: admin123
 
 ## Project Structure
 ```
@@ -75,3 +41,4 @@ placement_portal/
 │   └── uploads/           # User uploads (resumes, etc.)
 └── instance/              # Instance folder for SQLite database
 ```
+
